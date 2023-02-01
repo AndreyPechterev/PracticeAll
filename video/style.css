@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+#progress {
+    width: 400px;
+    display: block;
+}

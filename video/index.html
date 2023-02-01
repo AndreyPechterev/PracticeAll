@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <video width="400" height="300" id="video-player">
+        <source src="Часть 1.mp4" type="video/mp4">
+    </video>
+    
+    <progress max="100" value="0" id="progress"></progress>
+
+    <div><button id="play">Play</button></div>
+    <div><button id="pause">Pause</button></div>
+    <div><button id="stop">Stop</button></div>
+    <div><button id="speed-up">Faster</button></div>
+    <div><button id="speed-down">Slow</button></div>
+    <div><button id="speed-normal">Usual</button></div>
+    <div><input type="range" id="volume" min="0" max="100">Loud</div>
+    <script src="script.js"></script>
+</body>
+</html>
