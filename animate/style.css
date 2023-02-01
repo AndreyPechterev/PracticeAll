@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+}
+
+.slider-box {
+    width: 128px;
+    height: 128px;
+    border: 4px solid black;
+    display: block;
+    margin: 50px auto;
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.slider-box img {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    object-fit: cover;
+    display: none;
+}
